@@ -19,7 +19,7 @@ $(document).ready(function() {
 
       $('.dropdown').on('click' , function(e) {
         console.log('clicked dropdwon');
-        $(this).find('.dropdown-menu').toggleClass('show-dropdown-mobile')
+        $(this).siblings('.dropdown-menu').toggleClass('show-dropdown-mobile')
       })
 
       // To Show Dopdown On Dropdown hover

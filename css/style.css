@@ -3,7 +3,7 @@
 
 :root{
     --first-color: rgba(103, 128, 159, 1);
-    --second-color: #dcdcdc;
+    --second-color: #f5f5f5;
     /* --second-color: #5d171e; */
     /* --second-color: rgba(103, 128, 159, 1); */
     --text-color: rgba(103, 128, 159, 1);
@@ -1023,7 +1023,7 @@ display: none !important;
 
    /* Flex Main Slider */
    .flexslider .slides img {
-     min-height: 150px;
+     /* min-height: 150px; */
    }
    .main-slider .slider-text {
     left: 4%;
