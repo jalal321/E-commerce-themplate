@@ -3,7 +3,7 @@
 
 :root{
     --first-color: rgba(103, 128, 159, 1);
-    --second-color: #f2f2f2;
+    --second-color: #dcdcdc;
     /* --second-color: #5d171e; */
     /* --second-color: rgba(103, 128, 159, 1); */
     --text-color: rgba(103, 128, 159, 1);
@@ -117,7 +117,7 @@ section{
   position: relative;
   font-size: 2.5em;
   font-weight: 700;
-  font-family: cursive;
+  /* font-family: cursive; */
   color: var(--third-color);
 }
 .navigation .logo span{
@@ -125,7 +125,7 @@ section{
   font-size: 0.65em;
   font-weight: 700;
   top: -18px;
-  font-family: cursive;
+  /* font-family: cursive; */
   right: 0px;
   color: var(--third-color);
   /* transform: rotate(90deg); */
@@ -181,7 +181,7 @@ input[type='text']{
   right: 10px;
   font-size: 1.3em;
   color: var(--third-color);
-  font-family: cursive;
+  /* font-family: cursive; */
   /* font-weight: 500; */
 }
 .cart .qty{
@@ -950,14 +950,14 @@ display: none !important;
         /* top: -1%; */
         left: -10px;
         margin-bottom: -100%;
-        
     }
       .navigation .search-box{
         width: 95%;
           /* text-align: center; */
           top: 60px;
-          right: 10px;
-          left: 10px;
+          right: 0px;
+          left: 0px;
+          margin: 0 auto;
           position: absolute;
       }
       .navigation .logo {
@@ -979,8 +979,8 @@ display: none !important;
         }
       .navigation .search-box button{
         position: absolute;
-        right: 6px;
-        top: 8px;
+        right: 10px;
+        top: 10px;
         border: none;
         background: #fff;
         outline: none;
@@ -1118,8 +1118,11 @@ display: none !important;
    /* Dropdown menu mobile */
    .dropdown-menu{
     position: fixed;
-    top: 0;
-    left: -110%;
+    /* top: 0; */
+    /* left: -110%; */
+    min-height: 0 !important;
+    height: 0;
+    overflow: hidden;
     /* right: 0; */
     /* width: 100%; */
     /* height: 100% !important; */
@@ -1130,24 +1133,26 @@ display: none !important;
   .btn-close{
     position: absolute;
     right: 14px;
+    top: 5px;
     padding: 5px !important;
     border: 1px solid transparent;
-    height: 30px;
+    /* height: 30px; */
+    font-size: 22px;
+    font-weight: 700;
     text-align: center;
-    padding: 5px;
-    width: 30px;
+    /* width: 30px; */
     border-radius: 10rem;
-    color: #fff;
-    background: indianred;
+    /* color: #fff; */
+    color: var(--third-color);
   }
 
   .show-dropdown-mobile{
-    left: 0;
-    top: 0 !important;
-    width: 100% !important;
-    height: 100%;
-    display: block;
-    transition: .3s linear;
+    top: auto;
+    height: 250px;
+    /* width: 100% !important; */
+    /* height: 100% !important; */
+    /* display: block; */
+    transition:all .3s linear;
   }
   
 
