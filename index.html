@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+  integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+  crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.7.2/flexslider.min.css"
+  integrity="sha512-c7jR/kCnu09ZrAKsWXsI/x9HCO9kkpHw4Ftqhofqs+I2hNxalK5RGwo/IAhW3iqCHIw55wBSSCFlm8JP0sw2Zw=="
+  crossorigin="anonymous" />
+<!-- On Scroll Animations -->
+<!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
+
+<title>Ecommerce Store</title>
+</head>
+
+<body>
+  
+  <!-- Top Header -->
+  <div class="top-header">
+    <div class="container">
+      <div class="row">
+      <div class="site-name header-item display-xs-none">
+        <a href="/">
+          <i class="fa fa-map-marker-alt badge"></i>
+          <span>22 Down Street Houston , Texas</span>
+          </a>
+      </div>
+      <div class="helpline-msg header-item ">
+        <a href="/">
+          <i class="fas fa-globe badge"></i>
+           www.sitename.com
+          </a>
+      </div>
+      <div class="social-icons header-item">
+        <a href="">
+          <i class="fab fa-facebook badge" ></i>
+        </a>
+        <a href="#">
+          <i class="fab fa-twitter badge" ></i>
+        </a>
+        <a href="#">
+          <i class="fab fa-instagram badge" ></i>
+        </a>
+        <a href="#">
+          <i class="fab fa-youtube badge"></i>
+        </a>
+      </div>
+    </div>
+    </div>
+  </div>
+
+  <!--  Navigation  -->
+  <nav class="navigation">
+    <div class="container">
+      <div class="row">
+      <div class="logo-wrapper nav-item">
+        <h2 class="logo">
+          SHOPPING<span>.com</span>
+          <!-- Best Online Store -->
+          <!-- <img src="/images/logo7.png" alt=""> -->
+        </h2>
+      </div>
+      <div class="search-box nav-item w-50">
+        <input type="text" placeholder="search...">
+        <button class="fa fa-search"></button>
+      </div>
+      <div class="nav-item">
+        <span class="dropdown">
+          <a href="#" class="">
+            <i class="fa fa-user badge"> </i>
+            <span class="text">
+              My Account 
+            </span>
+            <i class="fa fa-chevron-down"></i>
+          </a>
+          <ul class="dropdown-menu">
+            <li class="btn-close display-md-none">X</li>
+            <li class="item">
+              <a href="#">
+                Your Account
+              </a>
+
+            </li>
+            <li class="item">
+              <a href="#">
+                Previous Order
+              </a></li>
+            <li class="item">
+              <a href="#">
+                Current Order
+              </a>
+            </li>
+            <li class="item">
+              <a href="#">
+                Change Password
+              </a>
+            </li>
+            <li class="item">
+              <a href="#">
+                Log Out
+              </a>
+            </li>
+          </ul>
+        </span>
+      
+       
+        
+<!-- cart -->
+<span class="cart">
+  <a href="#">
+    <i class="fa fa-shopping-cart badge"></i>
+    <span class="text">
+      My Cart
+    </span> 
+     <span class="qty">10</span> 
+    <b>$1030</b>
+  </a>
+</span>
+  
+<span class="display-md-none display-xs">
+  <a href="" class="">
+    <i class="fa fa-bars"></i>
+    <span>
+    </span>
+  </a>
+
+</span>
+    
+      </div>
+
+      </div>
+    </div>
+  </nav>
+  <!-- Lower Navigation -->
+  <nav class="lower-navigation">
+    <div class="container">
+      <div class="row">
+      <div class="nav-item display-xs-none w-20">
+        <i class="fas fa-headphones  badge"></i> 
+        <span>24/7 Help Line 111-222-333</span>
+      </div>
+      <div class="nav-item w-80">
+        <ul>
+          <li class="font-weight-dark dropdown"> 
+            <a href="#"> 
+              <i class="fas fa-th-list"> </i>
+              Shop By Categories <i class="fa fa-chevron-down"></i>
+            </a>
+            <ul class="dropdown-menu">
+              <li class="btn-close display-md-none">X</li>
+              <li class="item"><a>Men Women & Kids</a></li>
+              <li class="item"><a>Electronics</a></li>
+              <li class="item"><a>Mobile & Tablests</a></li>
+              <li class="item"><a>Home Accessories</a></li>
+              <li class="item"><a>Cosmetics</a></li>
+            </ul>
+          </li>
+          <li><a href="">Sale</a></li>
+          <li><a href="">Promotion</a></li>
+          <li><a href="">Track Order</a></li>
+          <li><a href="">Abous Us</a></li>
+          <li><a href="">Delivery</a></li>
+          <li><a href="">WishList</a></li>
+          <li><a href="">TOR's</a></li>
+          <li><a href="">Contact US</a></li>
+        </ul>
+      </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Slider  -->
+  <section class="main-slider">
+    <div class="flexslider flexslider-main">
+      <ul class="slides">
+        <li style="position: relative">
+          <img src="images/slider-3.png" />
+          <div class="slider-text">
+            <span>New Stock 00</span>
+            <h1>
+              Flat Sale On All Items
+            </h1>
+            <p>
+              Get Rid Of Button Mobiles Get Touch & Type New Mobile
+            </p>
+            <button>Shop Now</button>
+
+          </div>
+        </li>
+        <li style="position: relative">
+          <img src="images/slider-2.png"  />
+          <div class="slider-text ">
+            <span>New Stock 1</span>
+            <h1>
+              Flat Sale On All Items
+            </h1>
+            <p>
+              Get Rid Of Button Mobiles Get Touch & Type New Mobile
+            </p>
+            <button>Shop Now</button>
+
+          </div>
+        </li>
+        <li style="position: relative">
+          <img src="images/slider5.png"  />
+    
+        </li>
+        <li style="position: relative;">
+          <img src="images/slider6.png"  />
+                  </li>
+        <li style="position: relative;">
+          <img src="images/slider9.png"  />
+                  </li>
+        <li style="position: relative;">
+          <img src="images/slider10.png"  />
+                  </li>
+        <li style="position: relative;">
+          <img src="images/slider-3.png" />
+          <div class="slider-text">
+            <span>20% Off 3</span>
+            <h1>
+              Flat Sale On All Items
+            </h1>
+            <p>
+              Get Rid Of Button Mobiles Get Touch & Type New Mobile
+
+            </p>
+            <button>Shop Now</button>
+
+          </div>
+        </li>
+        <li style="position: relative;">
+          <img src="images/slider-4.png" />
+          <div class="slider-text" >
+            <span>20% Off 4</span>
+            <h1>
+              Flat Sale On All Items
+            </h1>
+            <p>
+              Get Rid Of Button Mobiles Get Touch & Type New Mobile
+            </p>
+            <button>Shop Now</button>
+
+          </div>
+        </li>
+        <!-- <li>
+      <img src="https://www.fillmurray.com/1200/300" />
+    </li> -->
+      </ul>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="services" data-aos="fade-up">
+    <div class="container ">
+      <div class="services-item">
+        <span class="fa fa-shipping-fast fa-2x "> </span>
+        <div class="service-text " data-aos="zoom-in">
+          <strong>
+            Free Shipping
+          </strong>
+          <p>
+            On Orders Over $500
+          </p>
+
+        </div>
+      </div>
+      <div class="services-item">
+        <span class="fa fa-exchange-alt fa-2x"> </span>
+        <div class="service-text" data-aos="zoom-in">
+          <strong>
+            Easy Returns
+          </strong>
+          <p>
+            Free Exchnage within 12 Days
+          </p>
+        </div>
+      </div>
+      <div class="services-item">
+        <span class="fa fa-lock fa-2x"> </span>
+        <div class="service-text" data-aos="zoom-in">
+          <strong>
+            Secure Payment
+          </strong>
+          <p>
+            Your Payments are 100% Secure
+          </p>
+        </div>
+      </div>
+      <div class="services-item">
+        <span class="fa fa-phone-volume fa-2x rotate-45"> </span>
+        <div class="service-text" data-aos="zoom-in">
+          <strong>
+            Help Line 24/7
+          </strong>
+          <p>
+            Contact Us 24 hours in a day
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Banner Items 1 -->
+  <section class="banner-image" data-aos="fade-up">
+    <div class="container row">
+      <div class="w-50 w-xs-100 " data-aos="fade-up">
+        <img src="images/banner-10.png" alt="">
+      </div>
+      <div class="w-50 w-xs-100 " data-aos="fade-up">
+        <img src="images/banner-9.png" alt="">
+      </div>
+    </div>
+    </div>
+  </section>
+
+   <!-- Popular Categories -->
+   <section class="popular-categories mt-1 mb-1">
+    <h2 class="heading">
+      Popular Categories
+    </h2>
+    <div class="container">
+      <div class="row">
+      <div class="card col-6  w-xs-100  mb-1 row">
+        <div class="col-6 align-top">
+          <h3>
+         Electronics
+        </h3>
+          <p class="mt-1 font-weight-light">
+            <ul class="features">
+              <li class=""><i class="fa fa-chevron-right"></i> <a href="#">Mobiles</a> </li>
+              <li class=""><i class="fa fa-chevron-right"></i> <a href="#">Laptops</a></li>
+              <li class=""><i class="fa fa-chevron-right"></i> <a href="#">LCD & LED</a></li>
+              <li class=""><i class="fa fa-chevron-right"></i> <a href="#">Home Appliances</a></li>
+              
+            </ul>    
+          </p>
+        </div>
+        <div class="col-6">
+          <img src="images/cat1.png" alt="" class="scale-img">
+        </div>
+      </div>
+
+      <div class="card col-6 w-xs-100  mb-1 row">
+        <div class="col-6 align-top">
+          
+          <h3>
+            Clothing
+          </h3>
+          <p class="mt-1 font-weight-light">
+            <ul class="features">
+              <li class=""><i class="fa fa-chevron-right"></i> <a href="#">Men</a> </li>
+              <li class=""><i class="fa fa-chevron-right"></i> <a href="#">Women</a></li>
+              <li class=""><i class="fa fa-chevron-right"></i> <a href="#">Kids</a></li>
+              <li class=""><i class="fa fa-chevron-right"></i> <a href="#">Unstiched</a></li>
+             
+              
+            </ul>    
+        </div>
+        <div class="col-6">
+          <img src="images/cat2.png" alt="" class="scale-img">
+
+        </div>
+      </div>
+      <div class="card col-6  w-xs-100 mb-1 row">
+        <div class="col-6 align-top">
+          
+          <h3>
+            Packing Material
+          </h3>
+          <p class="mt-1 font-weight-light">
+            <ul class="features">
+              <li class=""><i class="fa fa-chevron-right"></i> <a href="#">Gift Packing</a> </li>
+              <li class=""><i class="fa fa-chevron-right"></i> <a href="#">Food Packing</a></li>
+              <li class=""><i class="fa fa-chevron-right"></i> <a href="#">Garments Packing</a></li>
+              <li class=""><i class="fa fa-chevron-right"></i> <a href="#">Packing Tapes</a></li>
+             </p>
+              
+            </ul>    
+        </div>
+        <div class="col-6">  
+          <img src="images/cat3.png" alt="" class="scale-img">
+        </div>
+      </div>
+      <div class="card col-6 w-xs-100  mb-1 row">
+        <div class="col-6 align-top">
+          
+          <h3>
+            Kitchen Wares
+          </h3>
+          <p class="mt-1 font-weight-light">
+            <ul class="features">
+              <li class=""><i class="fa fa-chevron-right"></i> <a href="#">Mobiles</a> </li>
+              <li class=""><i class="fa fa-chevron-right"></i> <a href="#">Laptops</a></li>
+              <li class=""><i class="fa fa-chevron-right"></i> <a href="#">LCD & LED</a></li>
+              <li class=""><i class="fa fa-chevron-right"></i> <a href="#">Home Appliances</a></li>
+             </p>
+        </div>
+        <div class="col-6">
+          
+          <img src="images/cat3.png" alt="" class="scale-img">
+        </div>
+      </div>
+      <div class="card col-6 w-xs-100  mb-1 row">
+        <div class="col-6 align-top">
+          
+          <h3>
+            Kitchen Wares
+          </h3>
+          <p class="mt-1 font-weight-light">
+            <ul class="features">
+              <li class=""><i class="fa fa-chevron-right"></i> <a href="#">Mobiles</a> </li>
+              <li class=""><i class="fa fa-chevron-right"></i> <a href="#">Laptops</a></li>
+              <li class=""><i class="fa fa-chevron-right"></i> <a href="#">LCD & LED</a></li>
+              <li class=""><i class="fa fa-chevron-right"></i> <a href="#">Home Appliances</a></li>
+             </p>
+        </div>
+        <div class="col-6">
+          
+          <img src="images/cat2.png" alt="cat2" class="scale-img">
+        </div>
+      </div>
+      <div class="card col-6 w-xs-100  mb-1 row">
+        <div class="col-6 align-top">
+          
+          <h3>
+            Kitchen Wares
+          </h3>
+          <p class="mt-1 font-weight-light">
+            <ul class="features">
+              <li class=""><i class="fa fa-chevron-right"></i> <a href="#">Mobiles</a> </li>
+              <li class=""><i class="fa fa-chevron-right"></i> <a href="#">Laptops</a></li>
+              <li class=""><i class="fa fa-chevron-right"></i> <a href="#">LCD & LED</a></li>
+              <li class=""><i class="fa fa-chevron-right"></i> <a href="#">Home Appliances</a></li>
+             </p>
+        </div>
+        <div class="col-6">
+          <img src="images/cat1.png" alt="cat1" class="scale-img">
+        </div>
+      </div>  
+  </div>  
+  </div>  
+      
+  </section>
+
+  <!-- Feature Items -->
+  <section class="feature-items mt-2 mb-2 pb-4" data-aos="fade-up">
+    <div class="container">
+      <h2 class="heading">Feature Items</h2>
+      <div class="row">
+        <div class="item w-25 w-xs-100 card" data-aos="fade-up">
+          <div class="item">
+            <img src="/images/feature-image-3.png" alt="" class="w-100 scale-img">
+          </div>
+          <div class="item text-center pl-1 align-top">
+            <h4 class="">Samsung Galaxy S9</h4>
+            <p class="mt-1">its precious item its precious item its precious item its precious item its precious item
+              its precious item</p>
+            <button class="btn-primary mt-2">buy now</button>
+          </div>
+
+        </div>
+        <div class="item w-25 w-xs-100  card" data-aos="fade-up">
+          <div class="item">
+            <img src="/images/feature-image-4.png" alt="" class="w-100 scale-img">
+          </div>
+          <div class="item text-center pl-1 align-top">
+            <h4>Samsung Galaxy S9</h4>
+            <p class="mt-1">its precious item its precious item its precious item its precious item its precious item
+              its precious item</p>
+            <button class="btn-primary mt-2">buy now</button>
+          </div>
+        </div>
+        <div class="item w-25 w-xs-100  card " data-aos="fade-down">
+          <div class="item">
+            <img src="/images/feature-image-4.png" alt="" class="w-100 scale-img">
+          </div>
+          <div class="item text-center pl-1 align-top">
+            <h4>Samsung Galaxy S9</h4>
+            <p class="mt-1">its precious item its precious item its precious item its precious item its precious item
+              its precious item</p>
+            <button class="btn-primary mt-2">buy now</button>
+          </div>
+        </div>
+        <div class="item w-25 w-xs-100  card " data-aos="fade-down">
+          <div class="item">
+            <img src="/images/feature-image-4.png" alt="" class="w-100 scale-img">
+          </div>
+          <div class="item text-center pl-1 align-top">
+            <h4>Samsung Galaxy S9</h4>
+            <p class="mt-1">its precious item its precious item its precious item its precious item its precious item
+              its precious item</p>
+            <button class="btn-primary mt-2">buy now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Top Rated -->
+  <section class="top-rated">
+    <div class="container">
+      <h2 class="heading">Top Rated</h2>
+      <div class="flexslider flexslider-top-items carousel" data-aos="fade-up">
+        <ul class="slides">
+          <li class="product">
+
+            <!-- <img src="https://www.fillmurray.com/100/100" /> -->
+            <img src="images/1.png" class="scale-img" />
+            <h4>Samsung Galaxy New Arizona</h3>
+              <div>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+              </div>
+              <p>
+                $112
+              </p>
+              <button class="btn-primary">
+                Add to Cart
+              </button>
+          </li>
+          <li class="product">
+
+            <!-- <img src="https://www.fillmurray.com/100/100" /> -->
+            <img src="images/2.png" class="scale-img" />
+            <h4>Samsung Galaxy New Arizona</h3>
+              <div>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+              </div>
+              <p>
+                $112
+              </p>
+              <button class="btn-primary">
+                Add to Cart
+              </button>
+
+
+          </li>
+          <li class="product" data-aos="flip-left">
+
+            <!-- <img src="https://www.fillmurray.com/100/100" /> -->
+            <img src="images/3.png" class="scale-img" />
+            <h4>Samsung Galaxy New Arizona</h3>
+              <div>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+              </div>
+              <p>
+                <span style="text-decoration: line-through;">$200</span>
+                <span class="pr-1 pl-1">$100</span>
+                <span class="circular-btn">- 50%</span>
+              </p>
+              <button class="btn-primary">
+                Add to Cart
+              </button>
+
+
+          </li>
+          <li class="product" data-aos="flip-left">
+
+            <!-- <img src="https://www.fillmurray.com/100/100" /> -->
+            <img src="images/4.png" class="scale-img" />
+            <h4>Samsung Galaxy New Arizona</h4>
+            <div>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </div>
+            <p>
+              $112
+            </p>
+            <button class="btn-primary">
+              Add to Cart
+            </button>
+
+
+          </li>
+          <li class="product" data-aos="flip-left">
+
+            <!-- <img src="https://www.fillmurray.com/100/100" /> -->
+            <img src="images/5.png" class="scale-img" />
+            <h4>Samsung Galaxy New Arizona</h4>
+            <div>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </div>
+            <p>
+              $112
+            </p>
+            <button class="btn-primary">
+              Add to Cart
+            </button>
+
+
+          </li>
+          <li class="product" data-aos="flip-left">
+
+            <!-- <img src="https://www.fillmurray.com/100/100" /> -->
+            <img src="images/6.png" class="scale-img" />
+            <h4>Samsung Galaxy New Arizona</h4>
+            <div>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </div>
+            <p>
+              <span style="text-decoration: line-through;">$200</span>
+              <span class="pr-1 pl-1">$100</span>
+              <span class="circular-btn">- 50%</span>
+            </p>
+            <button class="btn-primary">
+              Add to Cart
+            </button>
+
+
+          </li>
+          <li class="product" data-aos="flip-left">
+
+            <!-- <img src="https://www.fillmurray.com/100/100" /> -->
+            <img src="images/7.png" class="scale-img" />
+            <h4>Samsung Galaxy New Arizona</h4>
+            <div>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </div>
+            <p>
+              $112
+            </p>
+            <button class="btn-primary">
+              Add to Cart
+            </button>
+
+
+          </li>
+          <li class="product" data-aos="flip-left">
+
+            <!-- <img src="https://www.fillmurray.com/100/100" /> -->
+            <img src="images/8.png" class="scale-img" />
+            <h4>Samsung Galaxy New Arizona</h4>
+            <div>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </div>
+
+            <p>
+              $112
+            </p>
+            <button class="btn-primary">
+              Add to Cart
+            </button>
+
+
+          </li>
+          <!-- <li class="product">
+         
+              <img src="https://www.fillmurray.com/100/100" />
+              <h4>Samsung Galaxy New Arizona</h4>
+              <div>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+              </div>
+              <p>
+                <span style="text-decoration: line-through;">$200</span>
+                <span class="pr-1 pl-1">$100</span>
+                 <span>-50%</span> 
+              </p>
+              <button class="btn-primary"> 
+                Add to Cart
+              </button>
+
+          
+      </li> -->
+        </ul>
+      </div>
+    </div>
+  </section>
+  <!-- Banner Images -->
+  <section class="banner-image" data-aos="fade-up">
+    <div class="container row">
+      <div class="w-50 w-xs-100 " data-aos="flip-up">
+        <img src="images/banner-11.png" alt="">
+      </div>
+      <div class="w-50 w-xs-100 " data-aos="flip-down">
+        <img src="images/banner-12.png" alt="">
+      </div>
+      <!-- <div class="w-50">
+    <img src="images/banner-10.png" alt="">
+  </div>  
+  <div class="w-50">
+    <img src="images/banner-9.png" alt="">
+  </div>  
+  <div class="w-100">
+    <img src="images/banner-7.png" alt="">
+  </div>   -->
+    </div>
+    </div>
+  </section>
+
+ 
+  <!-- Background Banner -->
+  <section class="banner" style="background:
+  url(http://themes.quitenicestuff2.com/sohohotelwp/demo1/wp-content/uploads/2019/07/02.jpg) no-repeat center top;">
+    <h2 class="heading">
+      Order online today and look forward to a relaxing deal with us
+    </h2>
+    <p>
+      Call Us On 1800-1111-2222 or Email order@website.com
+    </p>
+    <button class="btn-primary">
+      Shop Now
+    </button>
+  </section>
+
+  <!-- Full Size Banner -->
+  <section class="banner-image" data-aos="fade-up">
+    <div class="container row">
+      <div class="w-100 w-xs-100">
+        <img src="images/banner-full-size-1.png" alt="">
+      </div>
+  </section>
+
+  <!-- Testominials -->
+
+
+
+  <!-- Footer -->
+  <footer class="footer" data-aos="fade-up">
+    <section class="">
+      <div class="container display-inline-block">
+        <div class="col-4 item" data-aos="fade-right">
+          <h2 class="heading text-left">
+            Best Online Store
+          </h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe praesentium ducimus enim!
+            Rem praesentium fugiat eveniet laboriosam alias accusantium iure vero.
+            Aperiam itaque modi excepturi aliquam quidem exercitationem vero amet.
+          </p>
+          <div class="social-icons">
+            <a href="#">
+              <i class="fab fa-twitter badge" aria-hidden="true"></i>
+            </a>
+            <a href="#">
+              <i class="fab fa-instagram badge" aria-hidden="true"></i>
+            </a>
+            <a href="3">
+              <i class="fab fa-facebook badge" aria-hidden="true"></i>
+            </a>
+            <a href="#">
+              <i class="fab fa-youtube badge"></i>
+            </a>
+            <a href="#">
+              <i class="fab fa-linkedin badge"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-4 item" data-aos="fade-right">
+          <h2 class="heading text-left">
+            Contact
+          </h2>
+          <ul>
+            <li>
+              <span class="fa fa-map-marker pr-1"> </span>
+              40 Down Street , Houston , Texas
+            </li>
+            <li>
+              <span class="fa fa-phone pr-1"> </span>
+              0051-1234-6789
+            </li>
+            <li>
+              <span class="fa fa-mobile-alt pr-1"></span>
+              4444-1234567
+            </li>
+            <li>
+              <span class="fa fa-envelope pr-1"></span>
+              Admin@email.com
+            </li>
+
+          </ul>
+
+        </div>
+        <div class="col-4 item" data-aos="fade-right">
+          <h2 class="heading text-left">News Letter</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quibusdam,
+            ex optio voluptatem odio blanditiis iusto explicabo rerum perferendis! Laudantium,
+            quidem consequatur cupiditate ipsam beatae sed voluptatem esse aut tempora.
+
+          </p>
+          <p class="text-right">
+            <input type="text" value="" placeholder="" class="control-input w-100 mt-1 mb-1" data-aos="fade-right"
+              data-aos-duration="2500">
+            <button class="btn-primary" data-aos="fade-right" data-aos-duration="2500">Subscribe</button>
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Lower Footer -->
+    <div class="footer-lower bg-third-color pt-2 pb-2" data-aos="fade-right">
+      <div class="container row">
+        <div class="w-100">
+          <div class="w-30 w-xs-100 text-left text-xs-center text-white mb-xs-1">
+            ©2020 Online Store , All Rights Reserved.
+          </div>
+          <div class="w-70 w-xs-100 text-right text-xs-center">
+            <ul class="row">
+              <li><a href="" class="text-white pr-1">Home</a></li>
+              <li><a href="" class="text-white pr-1">About</a></li>
+              <li><a href="" class="text-white pr-1">Conatct</a></li>
+              <li><a href="" class="text-white pr-1">Account</a></li>
+              <li><a href="" class="text-white pr-1">Blog</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+<!-- Modal & BackDrop -->
+<div class="backdrop"></div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.6.3/jquery.flexslider-min.js"></script>
+  <script src="js/main.js"></script>
+  <!-- On Scroll Animations js -->
+  <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
+
+</body>
+
+</html>
