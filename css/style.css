@@ -981,6 +981,7 @@ input[type="text"] {
 .banner-bg p {
   font-size: 0.875em;
   font-weight: 400;
+  padding: 0 10px;
   margin-bottom: 40px;
   text-transform: capitalize;
 }
@@ -2122,18 +2123,14 @@ input[type="text"] {
   /* Close button */
   .btn-close {
     position: absolute;
-    right: 14px;
+    right: 12px;
     top: 5px;
     padding: 5px !important;
-    border: 1px solid transparent;
-    /* height: 30px; */
-    font-size: 22px;
+    font-size: 15px;
     font-weight: 700;
     text-align: center;
-    /* width: 30px; */
     border-radius: 10rem;
-    /* color: #fff; */
-    color: var(--third-color);
+    color: var(--accent-color);
   }
 
   .dropdown-menu.active {
